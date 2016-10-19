@@ -5,18 +5,7 @@
  */
 package centrosmysql;
 
-import entidades.Centro;
-import entidades.CentroLocalidadProvincia;
-import entidades.Localidad;
-import entidades.Provincia;
 import entorno.IntroFrame;
-import entorno.MainFrame;
-import java.util.ArrayList;
-import persistencia.ADOCentro;
-import persistencia.ADOCentroLocalidadProvincia;
-import persistencia.ADOLocalidad;
-import persistencia.ADOProvincia;
-import persistencia.DataBase;
 
 /**
  *
@@ -32,12 +21,12 @@ public class CentrosMySQL {
         //creating and showing this application's GUI.
         javax.swing.SwingUtilities.invokeLater(new Runnable() {
             public void run() {
-//                IntroFrame intro = new IntroFrame();
-//                intro.pack();
-//                intro.setVisible(true);
+                IntroFrame intro = new IntroFrame();
+                intro.pack();
+                intro.setVisible(true);
 
-                MainFrame principal = new MainFrame();
-                principal.setVisible(true);
+//                MainFrame principal = new MainFrame();
+                //               principal.setVisible(true);
             }
         });
 
